@@ -1,0 +1,32 @@
+
+.user-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-container h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.user-container p {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  .user-container {
+    padding: 8px;
+  }
+
+  .user-container h3 {
+    font-size: 16px;
+  }
+
+  .user-container p {
+    font-size: 12px;
+  }
+}
